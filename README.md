@@ -14,7 +14,7 @@
 
 <br>
 
-## 代表作 — WordQuest
+## 個人開発 — WordQuest
 
 <p align="center">
   <a href="https://github.com/GitSumito/wordquest-oss">
