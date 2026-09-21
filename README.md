@@ -45,13 +45,32 @@
   </tr>
 </table>
 
-<!--
-  作品を足すときは、下のカードをコピーして「その他の作品」セクションに並べる。
+## その他の個人開発
 
-  <td width="33%" align="center" valign="top">
-    <a href="https://github.com/GitSumito/リポジトリ名"><img src="画像URL" width="200"></a><br>
-    <b>作品名</b><br>
-    <sub>一行の説明</sub><br>
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/GitSumito/kioku-oss"><img src="https://raw.githubusercontent.com/GitSumito/kioku-oss/main/docs/images/hero.jpg" alt="Kioku のダッシュボードと学習画面" width="400"></a><br>
+      <b><a href="https://github.com/GitSumito/kioku-oss">Kioku</a></b><br>
+      SM-2 による間隔反復フラッシュカードアプリ。キーボードだけで学習でき、復習待ち・連続日数・統計をダッシュボードで確認できます。<br>
+      <sub>Next.js · TypeScript · Prisma · PostgreSQL</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/GitSumito/mac-ocr-oss"><img src="https://raw.githubusercontent.com/GitSumito/GitSumito/main/assets/mac-ocr-card.png" alt="mac-ocr: 範囲を選ぶと、認識したテキストがクリップボードに入る" width="400"></a><br>
+      <b><a href="https://github.com/GitSumito/mac-ocr-oss">mac-ocr</a></b><br>
+      Mac 向けのローカル完結 OCR ツール。⌘⇧O でドラッグして範囲を選ぶだけで、認識したテキストがクリップボードに入ります。外部への送信はありません。<br>
+      <sub>Swift · Vision · ScreenCaptureKit</sub>
+    </td>
+  </tr>
+</table>
+
+<!--
+  作品を足すときは、上の表に <td> を追加する（または新しい <tr> を足す）。
+
+  <td width="50%" align="center" valign="top">
+    <a href="https://github.com/GitSumito/リポジトリ名"><img src="画像URL" width="400"></a><br>
+    <b><a href="https://github.com/GitSumito/リポジトリ名">作品名</a></b><br>
+    一行の説明<br>
     <sub>技術 · 技術</sub>
   </td>
 -->
@@ -85,6 +104,7 @@
 
 <p>
   <img alt="Go" src="https://img.shields.io/badge/Go-00add8?logo=go&logoColor=white">
+  <img alt="Swift" src="https://img.shields.io/badge/Swift-f05138?logo=swift&logoColor=white">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776ab?logo=python&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white">
   <img alt="React" src="https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb">
